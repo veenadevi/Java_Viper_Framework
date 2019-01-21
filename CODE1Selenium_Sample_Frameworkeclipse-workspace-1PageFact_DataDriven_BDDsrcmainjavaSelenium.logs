@@ -1,0 +1,48 @@
+12:10:36,056 DEBUG InternalLoggerFactory:45 – Using Log4J as the default logging framework
+12:10:36,060 DEBUG OpenSsl:82 – netty-tcnative not in the classpath; OpenSslEngine will be unavailable.
+12:10:36,218 DEBUG PlatformDependent:676 – Platform: Windows
+12:10:36,219 DEBUG PlatformDependent0:356 – -Dio.netty.noUnsafe: false
+12:10:36,220 DEBUG PlatformDependent0:664 – Java version: 8
+12:10:36,221 DEBUG PlatformDependent0:104 – sun.misc.Unsafe.theUnsafe: available
+12:10:36,221 DEBUG PlatformDependent0:128 – sun.misc.Unsafe.copyMemory: available
+12:10:36,222 DEBUG PlatformDependent0:165 – java.nio.Buffer.address: available
+12:10:36,222 DEBUG PlatformDependent0:223 – direct buffer constructor: available
+12:10:36,223 DEBUG PlatformDependent0:273 – java.nio.Bits.unaligned: available, true
+12:10:36,223 DEBUG PlatformDependent0:339 – jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+12:10:36,223 DEBUG PlatformDependent0:346 – java.nio.DirectByteBuffer.<init>(long, int): available
+12:10:36,223 DEBUG PlatformDependent:713 – sun.misc.Unsafe: available
+12:10:36,223 DEBUG PlatformDependent:803 – -Dio.netty.tmpdir: C:\Users\kam\AppData\Local\Temp (java.io.tmpdir)
+12:10:36,223 DEBUG PlatformDependent:882 – -Dio.netty.bitMode: 64 (sun.arch.data.model)
+12:10:36,224 DEBUG PlatformDependent:125 – -Dio.netty.noPreferDirect: false
+12:10:36,225 DEBUG PlatformDependent:165 – -Dio.netty.maxDirectMemory: 3797417984 bytes
+12:10:36,225 DEBUG PlatformDependent:171 – -Dio.netty.uninitializedArrayAllocationThreshold: -1
+12:10:36,225 DEBUG CleanerJava6:60 – java.nio.ByteBuffer.cleaner(): available
+12:10:36,233 DEBUG MultithreadEventLoopGroup:42 – -Dio.netty.eventLoopThreads: 16
+12:10:36,240 DEBUG NioEventLoop:112 – -Dio.netty.noKeySetOptimization: false
+12:10:36,240 DEBUG NioEventLoop:113 – -Dio.netty.selectorAutoRebuildThreshold: 512
+12:10:36,247 DEBUG PlatformDependent:581 – org.jctools-core.MpscChunkedArrayQueue: available
+12:10:36,287 DEBUG InternalThreadLocalMap:51 – -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+12:10:36,287 DEBUG InternalThreadLocalMap:54 – -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+12:10:36,307 DEBUG ByteBufUtil:71 – -Dio.netty.allocator.type: unpooled
+12:10:36,307 DEBUG ByteBufUtil:83 – -Dio.netty.threadLocalDirectBufferSize: 65536
+12:10:36,307 DEBUG ByteBufUtil:86 – -Dio.netty.maxThreadLocalCharBufferSize: 16384
+12:10:36,376 DEBUG NetUtil:210 – Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+12:10:36,376 DEBUG NetUtil:261 – \proc\sys\net\core\somaxconn: 200 (non-existent)
+12:10:40,937 DEBUG AbstractByteBuf:49 – -Dio.netty.buffer.bytebuf.checkAccessible: true
+12:10:40,940 DEBUG ResourceLeakDetector:114 – -Dio.netty.leakDetection.level: simple
+12:10:40,941 DEBUG ResourceLeakDetector:115 – -Dio.netty.leakDetection.maxRecords: 4
+12:10:40,941 DEBUG ResourceLeakDetectorFactory:202 – Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@465958d
+12:10:40,954 DEBUG Recycler:90 – -Dio.netty.recycler.maxCapacity.default: 32768
+12:10:40,955 DEBUG Recycler:91 – -Dio.netty.recycler.maxSharedCapacityFactor: 2
+12:10:40,955 DEBUG Recycler:92 – -Dio.netty.recycler.linkCapacity: 16
+12:10:40,955 DEBUG Recycler:93 – -Dio.netty.recycler.ratio: 8
+12:10:41,791 DEBUG JdkSslContext:121 – Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+12:10:41,792 DEBUG JdkSslContext:122 – Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+12:10:42,639 DEBUG SslHandler:1395 – [id: 0x8e7b0c16, L:/172.27.20.18:23332 - R:search.services.mozilla.com/34.216.89.123:443] HANDSHAKEN: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+12:10:42,831 DEBUG SslHandler:1395 – [id: 0x8d691e7a, L:/172.27.20.18:23338 - R:shavar.services.mozilla.com/52.33.113.226:443] HANDSHAKEN: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+12:10:43,443 DEBUG SslHandler:1395 – [id: 0x75fbc2b1, L:/fe80:0:0:0:57:1d71:b0f0:8f29%12:2020 - R:/fe80:0:0:0:57:1d71:b0f0:8f29%12:23266] HANDSHAKEN: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+12:10:43,451 DEBUG SslHandler:1395 – [id: 0x7f1e71eb, L:/fe80:0:0:0:57:1d71:b0f0:8f29%12:2020 - R:/fe80:0:0:0:57:1d71:b0f0:8f29%12:23329] HANDSHAKEN: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+12:10:43,631 DEBUG SslHandler:1395 – [id: 0x2578bbcf, L:/172.27.20.18:23357 - R:translate.googleapis.com/216.58.206.106:443] HANDSHAKEN: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+12:10:43,632 DEBUG SslHandler:1395 – [id: 0x546b43bb, L:/172.27.20.18:23358 - R:translate.googleapis.com/216.58.206.106:443] HANDSHAKEN: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+12:10:43,878 DEBUG SslHandler:1395 – [id: 0xa43c6398, L:/fe80:0:0:0:57:1d71:b0f0:8f29%12:2020 - R:/fe80:0:0:0:57:1d71:b0f0:8f29%12:23354] HANDSHAKEN: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+12:10:43,881 DEBUG SslHandler:1395 – [id: 0x5cca6d50, L:/fe80:0:0:0:57:1d71:b0f0:8f29%12:2020 - R:/fe80:0:0:0:57:1d71:b0f0:8f29%12:23353] HANDSHAKEN: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
